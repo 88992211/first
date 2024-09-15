@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    html,body{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.{
+    margin: 300px;
+}
+#showmodel{
+    padding:5px;
+    background-color: aquamarine;
+
+}
+.off{
+    padding: 5px;
+    background-color: blue;
+}

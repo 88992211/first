@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-7xl mx-auto">
+        <div id="cart-message" class="hidden mb-6 p-4 bg-green-100 text-green-700 rounded-md"></div>
+        <div class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold text-gray-800">Product Showcase</h1>
+            <select class="p-2 rounded-md font-semibold bg-white border border-gray-300">
+                <option value="popularity">Popularity</option>
+                <option value="ratings">Ratings</option>
+            </select>
+        </div>
+        <div class="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </div>
+    <script src="script8.js"></script>
+</body>
+</html>

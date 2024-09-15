@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}  
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+}
+
+.container{
+    height: 30vw;
+    width:20vw;
+    border: solid 1px white;
+    padding: 10px;
+}
+
+.draggable{
+    height:7vh ;
+    width: 100%;
+    background-color:rgb(224, 37, 71);
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.draggable .dragging{
+    opacity:0.5;
+}

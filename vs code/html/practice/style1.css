@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aqua;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 750px;
+}
+button{
+    padding: 40px 75px;
+    font-size:xx-large;
+    font-weight: bold;
+    border-radius: 10px;
+    animation-name: fff;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fff{
+    from{
+        background-color: brown;
+
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
+button:hover{
+    background-color: black;
+    color: white ;
+    animation-name: fff;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    z-index: -1 ;
+}

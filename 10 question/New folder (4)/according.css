@@ -1,0 +1,34 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.accordion{
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.accordion-item{
+    border-bottom: 1px solid #ccc;
+}
+.accordion-header{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+}
+.accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    background-color: antiquewhite;
+}
+.accordion-content p {
+    margin: 15px 0;
+}

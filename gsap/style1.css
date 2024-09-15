@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 5);
+}
+.lines {
+    color: aliceblue;
+    font-size: 60px;
+    padding: 40px;
+}
+#first{
+    overflow: hidden;
+    
+}
+
+#first span{
+    display: inline-block;
+  
+    
+}
+#second{
+    overflow: hidden;
+}
+
+#second span{
+    display: inline-block;
+   
+}
+#third{
+    overflow: hidden;
+}
+
+#third span{
+    display: inline-block;
+   
+}

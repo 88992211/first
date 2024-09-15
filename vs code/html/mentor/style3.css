@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+}
+#letter h1{
+    position: absolute;
+    top: 3%;
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 7px;
+    font-weight: 500;
+
+}
+#part2{
+    display: flex;
+    gap: 10px;
+}
+#line{
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+#letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-size: 150px;
+
+}
+
+#img1{
+    background-image: url(https://media.istockphoto.com/id/1028559846/photo/graham-county-courthouse.jpg?s=2048x2048&w=is&k=20&c=b1IT2Z3ybx6VuOLhBof4jXmPBZbYRtGP1JAA-zMvyrc=);
+    width: 100%;
+    margin-top: 10%;
+    height: 400px;
+    background-size: cover;
+background-position: center;
+margin-bottom: 30px;
+}
+#img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+  
+
+
+#child1{
+    display: flex;
+    gap: 5px;
+    border-right: 1px solid #000;
+   
+}
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#secondmain{
+    width: 650px;
+    height: 350px;
+  
+}
+#second1{
+      
+     width: 100%;
+     height: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom:1px solid #000;
+  }  
+.s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 40px;
+}
+#second2{
+    width: 100%;
+    height: 50%;
+    padding: 4px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.one{
+    border-left:1px solid #2c2a2a;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.word1{
+    font-size: 40px;
+    color: rgb(99, 94, 94);
+    
+}
+.word2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: bold;
+  color: rgb(99, 94, 94);
+
+}
+#teen{
+     display:flex;
+     flex-direction:column;
+    
+}
+#last{
+    margin-top: 27px;
+    margin-left: 2px;
+}
+#ek{
+    font: bolder;
+    font-weight: 500;
+    font-style:initial;
+    font-size: 30px;
+}
+#third{
+    padding: 70px;
+}
+#nav3{
+    display: flex;
+    justify-content: space-between;
+  
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+#word3{
+    width: 50%;
+    margin-top: 60px;
+}
+#p1{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#p2{
+    padding-top: 50px;
+}
+#status{
+    display: flex;
+}
+#img2{
+   margin-top: 55px;
+   margin-left: 180px;
+   
+  
+   border-radius: 10px;
+}
+#fourth{
+    padding: 70px;
+    width: 100%;
+}
+#nav4{
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: space-between;
+}
+#word4{
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    margin-top: 50px;
+}
+#photo{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+}
+#lel{
+    width: 50%;
+}
+.pic{
+   
+    width: 250px;
+    height: 300px;
+}
+#point{
+  font-size:20px;
+  font-weight: bolder;
+  padding: 30px;
+}
